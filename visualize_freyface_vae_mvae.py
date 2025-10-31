@@ -253,14 +253,11 @@ def main():
 
     # Load models
     VAE, MVAE = _try_import_models()
-    vae = VAE(input_size=560, hidden_size=500, latent_size=args.latent_size, data_type="real").to(device)
-    mvae = MVAE(input_size=560, hidden_size=500, latent_size=args.latent_size, data_type="real").to(device) if MVAE is not None else None
+    vae = VAE(input_size=560, hidden_size=500, latent_size=args.latent_size).to(device)
+    mvae = MVAE(input_size=560, hidden_size=500, latent_size=args.latent_size).to(device) if MVAE is not None else None
 
     vae.load_state_dict(torch.load(args.weights_vae, map_location=device), strict=True)
-    if mvae is not None:
-        mvae.load_state_dict(torch.load(args.weights_mvae, map_location=device), strict=True)
-    else:
-        raise RuntimeError("MVAE class not found in models. Please ensure models.MVAE exists.")
+    mvae.load_state_dict(torch.load(args.weights_mvae, map_location=device), strict=True)
 
     vae.eval(); mvae.eval()
 
