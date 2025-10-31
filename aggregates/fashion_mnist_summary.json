@@ -1,0 +1,416 @@
+[
+  {
+    "dataset": "fashion_mnist",
+    "latent": 2,
+    "metrics": {
+      "mse/test": {
+        "vae": 0.02694533723436361,
+        "mvae": 0.026788341677918725,
+        "winner": "mvae",
+        "best_value": 0.026788341677918725,
+        "delta_abs": 0.00015699555644488675,
+        "delta_rel": "0.58%",
+        "higher_is_better": false
+      },
+      "probe/acc": {
+        "vae": 0.6397857142857143,
+        "mvae": 0.6695714285714286,
+        "winner": "mvae",
+        "best_value": 0.6695714285714286,
+        "delta_abs": 0.029785714285714304,
+        "delta_rel": "4.66%",
+        "higher_is_better": true
+      },
+      "probe/nll": {
+        "vae": 1.096935929587656,
+        "mvae": 0.9587171509409297,
+        "winner": "mvae",
+        "best_value": 0.9587171509409297,
+        "delta_abs": 0.13821877864672627,
+        "delta_rel": "12.60%",
+        "higher_is_better": false
+      },
+      "probe/brier": {
+        "vae": 0.49827444709412233,
+        "mvae": 0.44748682649339283,
+        "winner": "mvae",
+        "best_value": 0.44748682649339283,
+        "delta_abs": 0.0507876206007295,
+        "delta_rel": "10.19%",
+        "higher_is_better": false
+      },
+      "probe/ece": {
+        "vae": 0.10243240816039698,
+        "mvae": 0.06876642298485552,
+        "winner": "mvae",
+        "best_value": 0.06876642298485552,
+        "delta_abs": 0.03366598517554145,
+        "delta_rel": "32.87%",
+        "higher_is_better": false
+      },
+      "cluster/nmi": {
+        "vae": 0.5310127754741217,
+        "mvae": 0.5442849597188715,
+        "winner": "mvae",
+        "best_value": 0.5442849597188715,
+        "delta_abs": 0.01327218424474974,
+        "delta_rel": "2.50%",
+        "higher_is_better": true
+      },
+      "cluster/ari": {
+        "vae": 0.35631465860781675,
+        "mvae": 0.3737673529785673,
+        "winner": "mvae",
+        "best_value": 0.3737673529785673,
+        "delta_abs": 0.017452694370750532,
+        "delta_rel": "4.90%",
+        "higher_is_better": true
+      }
+    }
+  },
+  {
+    "dataset": "fashion_mnist",
+    "latent": 4,
+    "metrics": {
+      "mse/test": {
+        "vae": 0.019083810700619534,
+        "mvae": 0.019211268477815232,
+        "winner": "vae",
+        "best_value": 0.019083810700619534,
+        "delta_abs": 0.00012745777719569765,
+        "delta_rel": "-0.67%",
+        "higher_is_better": false
+      },
+      "probe/acc": {
+        "vae": 0.7535714285714286,
+        "mvae": 0.7235,
+        "winner": "vae",
+        "best_value": 0.7535714285714286,
+        "delta_abs": 0.030071428571428527,
+        "delta_rel": "-3.99%",
+        "higher_is_better": true
+      },
+      "probe/nll": {
+        "vae": 0.700585533818991,
+        "mvae": 0.7674090448724192,
+        "winner": "vae",
+        "best_value": 0.700585533818991,
+        "delta_abs": 0.06682351105342821,
+        "delta_rel": "-9.54%",
+        "higher_is_better": false
+      },
+      "probe/brier": {
+        "vae": 0.3504468608702139,
+        "mvae": 0.3811545884240486,
+        "winner": "vae",
+        "best_value": 0.3504468608702139,
+        "delta_abs": 0.030707727553834663,
+        "delta_rel": "-8.76%",
+        "higher_is_better": false
+      },
+      "probe/ece": {
+        "vae": 0.029757093876600294,
+        "mvae": 0.02446703210473059,
+        "winner": "mvae",
+        "best_value": 0.02446703210473059,
+        "delta_abs": 0.005290061771869706,
+        "delta_rel": "17.78%",
+        "higher_is_better": false
+      },
+      "cluster/nmi": {
+        "vae": 0.589347994110515,
+        "mvae": 0.5599423079793028,
+        "winner": "vae",
+        "best_value": 0.589347994110515,
+        "delta_abs": 0.029405686131212194,
+        "delta_rel": "-4.99%",
+        "higher_is_better": true
+      },
+      "cluster/ari": {
+        "vae": 0.44953424865278224,
+        "mvae": 0.3999135345372873,
+        "winner": "vae",
+        "best_value": 0.44953424865278224,
+        "delta_abs": 0.04962071411549496,
+        "delta_rel": "-11.04%",
+        "higher_is_better": true
+      }
+    }
+  },
+  {
+    "dataset": "fashion_mnist",
+    "latent": 16,
+    "metrics": {
+      "mse/test": {
+        "vae": 0.014357279118574049,
+        "mvae": 0.014617134817140096,
+        "winner": "vae",
+        "best_value": 0.014357279118574049,
+        "delta_abs": 0.00025985569856604683,
+        "delta_rel": "-1.81%",
+        "higher_is_better": false
+      },
+      "probe/acc": {
+        "vae": 0.8042857142857143,
+        "mvae": 0.7968571428571428,
+        "winner": "vae",
+        "best_value": 0.8042857142857143,
+        "delta_abs": 0.007428571428571451,
+        "delta_rel": "-0.92%",
+        "higher_is_better": true
+      },
+      "probe/nll": {
+        "vae": 0.5417375857937825,
+        "mvae": 0.5476386044825321,
+        "winner": "vae",
+        "best_value": 0.5417375857937825,
+        "delta_abs": 0.005901018688749593,
+        "delta_rel": "-1.09%",
+        "higher_is_better": false
+      },
+      "probe/brier": {
+        "vae": 0.2751778585005509,
+        "mvae": 0.2798799766223812,
+        "winner": "vae",
+        "best_value": 0.2751778585005509,
+        "delta_abs": 0.004702118121830301,
+        "delta_rel": "-1.71%",
+        "higher_is_better": false
+      },
+      "probe/ece": {
+        "vae": 0.021695979576025707,
+        "mvae": 0.017569466561079005,
+        "winner": "mvae",
+        "best_value": 0.017569466561079005,
+        "delta_abs": 0.004126513014946702,
+        "delta_rel": "19.02%",
+        "higher_is_better": false
+      },
+      "cluster/nmi": {
+        "vae": 0.558375965957204,
+        "mvae": 0.5349937355608689,
+        "winner": "vae",
+        "best_value": 0.558375965957204,
+        "delta_abs": 0.023382230396335024,
+        "delta_rel": "-4.19%",
+        "higher_is_better": true
+      },
+      "cluster/ari": {
+        "vae": 0.42521017937791455,
+        "mvae": 0.3791505062653376,
+        "winner": "vae",
+        "best_value": 0.42521017937791455,
+        "delta_abs": 0.04605967311257697,
+        "delta_rel": "-10.83%",
+        "higher_is_better": true
+      }
+    }
+  },
+  {
+    "dataset": "fashion_mnist",
+    "latent": 32,
+    "metrics": {
+      "mse/test": {
+        "vae": 0.014641831623221973,
+        "mvae": 0.014400811893251824,
+        "winner": "mvae",
+        "best_value": 0.014400811893251824,
+        "delta_abs": 0.00024101972997014887,
+        "delta_rel": "1.65%",
+        "higher_is_better": false
+      },
+      "probe/acc": {
+        "vae": 0.8187142857142857,
+        "mvae": 0.8154285714285714,
+        "winner": "vae",
+        "best_value": 0.8187142857142857,
+        "delta_abs": 0.003285714285714336,
+        "delta_rel": "-0.40%",
+        "higher_is_better": true
+      },
+      "probe/nll": {
+        "vae": 0.5095656007114436,
+        "mvae": 0.5060125180837024,
+        "winner": "mvae",
+        "best_value": 0.5060125180837024,
+        "delta_abs": 0.003553082627741233,
+        "delta_rel": "0.70%",
+        "higher_is_better": false
+      },
+      "probe/brier": {
+        "vae": 0.2589085544927295,
+        "mvae": 0.2574950567469201,
+        "winner": "mvae",
+        "best_value": 0.2574950567469201,
+        "delta_abs": 0.0014134977458094,
+        "delta_rel": "0.55%",
+        "higher_is_better": false
+      },
+      "probe/ece": {
+        "vae": 0.0272023186577218,
+        "mvae": 0.024560386316052518,
+        "winner": "mvae",
+        "best_value": 0.024560386316052518,
+        "delta_abs": 0.0026419323416692828,
+        "delta_rel": "9.71%",
+        "higher_is_better": false
+      },
+      "cluster/nmi": {
+        "vae": 0.5269688405621341,
+        "mvae": 0.5231165460920071,
+        "winner": "vae",
+        "best_value": 0.5269688405621341,
+        "delta_abs": 0.0038522944701270267,
+        "delta_rel": "-0.73%",
+        "higher_is_better": true
+      },
+      "cluster/ari": {
+        "vae": 0.3838173413543227,
+        "mvae": 0.3771615086128948,
+        "winner": "vae",
+        "best_value": 0.3838173413543227,
+        "delta_abs": 0.006655832741427892,
+        "delta_rel": "-1.73%",
+        "higher_is_better": true
+      }
+    }
+  },
+  {
+    "dataset": "fashion_mnist",
+    "latent": 256,
+    "metrics": {
+      "mse/test": {
+        "vae": 0.01504876991472161,
+        "mvae": 0.015142667753703393,
+        "winner": "vae",
+        "best_value": 0.01504876991472161,
+        "delta_abs": 9.389783898178412e-05,
+        "delta_rel": "-0.62%",
+        "higher_is_better": false
+      },
+      "probe/acc": {
+        "vae": 0.8626428571428572,
+        "mvae": 0.8652857142857143,
+        "winner": "mvae",
+        "best_value": 0.8652857142857143,
+        "delta_abs": 0.002642857142857169,
+        "delta_rel": "0.31%",
+        "higher_is_better": true
+      },
+      "probe/nll": {
+        "vae": 0.3990591720610152,
+        "mvae": 0.38474887170426186,
+        "winner": "mvae",
+        "best_value": 0.38474887170426186,
+        "delta_abs": 0.014310300356753347,
+        "delta_rel": "3.59%",
+        "higher_is_better": false
+      },
+      "probe/brier": {
+        "vae": 0.20135858798091488,
+        "mvae": 0.19498392852847526,
+        "winner": "mvae",
+        "best_value": 0.19498392852847526,
+        "delta_abs": 0.006374659452439618,
+        "delta_rel": "3.17%",
+        "higher_is_better": false
+      },
+      "probe/ece": {
+        "vae": 0.03355994527680537,
+        "mvae": 0.02565476664049285,
+        "winner": "mvae",
+        "best_value": 0.02565476664049285,
+        "delta_abs": 0.007905178636312522,
+        "delta_rel": "23.56%",
+        "higher_is_better": false
+      },
+      "cluster/nmi": {
+        "vae": 0.5021495681369837,
+        "mvae": 0.5278577049230627,
+        "winner": "mvae",
+        "best_value": 0.5278577049230627,
+        "delta_abs": 0.025708136786078972,
+        "delta_rel": "5.12%",
+        "higher_is_better": true
+      },
+      "cluster/ari": {
+        "vae": 0.3645807880565803,
+        "mvae": 0.3740131113125622,
+        "winner": "mvae",
+        "best_value": 0.3740131113125622,
+        "delta_abs": 0.009432323255981923,
+        "delta_rel": "2.59%",
+        "higher_is_better": true
+      }
+    }
+  },
+  {
+    "dataset": "fashion_mnist",
+    "latent": 512,
+    "metrics": {
+      "mse/test": {
+        "vae": 0.015629741412905147,
+        "mvae": 0.015556736415051163,
+        "winner": "mvae",
+        "best_value": 0.015556736415051163,
+        "delta_abs": 7.300499785398325e-05,
+        "delta_rel": "0.47%",
+        "higher_is_better": false
+      },
+      "probe/acc": {
+        "vae": 0.8625714285714285,
+        "mvae": 0.8650714285714286,
+        "winner": "mvae",
+        "best_value": 0.8650714285714286,
+        "delta_abs": 0.0025000000000000577,
+        "delta_rel": "0.29%",
+        "higher_is_better": true
+      },
+      "probe/nll": {
+        "vae": 0.3885240327227119,
+        "mvae": 0.3806504909196431,
+        "winner": "mvae",
+        "best_value": 0.3806504909196431,
+        "delta_abs": 0.007873541803068818,
+        "delta_rel": "2.03%",
+        "higher_is_better": false
+      },
+      "probe/brier": {
+        "vae": 0.197181046217403,
+        "mvae": 0.19375678319304526,
+        "winner": "mvae",
+        "best_value": 0.19375678319304526,
+        "delta_abs": 0.0034242630243577488,
+        "delta_rel": "1.74%",
+        "higher_is_better": false
+      },
+      "probe/ece": {
+        "vae": 0.026204074070921957,
+        "mvae": 0.026235614702105517,
+        "winner": "vae",
+        "best_value": 0.026204074070921957,
+        "delta_abs": 3.154063118356032e-05,
+        "delta_rel": "-0.12%",
+        "higher_is_better": false
+      },
+      "cluster/nmi": {
+        "vae": 0.5258350678243776,
+        "mvae": 0.5407500338370674,
+        "winner": "mvae",
+        "best_value": 0.5407500338370674,
+        "delta_abs": 0.014914966012689823,
+        "delta_rel": "2.84%",
+        "higher_is_better": true
+      },
+      "cluster/ari": {
+        "vae": 0.3528561413031605,
+        "mvae": 0.36876037159667063,
+        "winner": "mvae",
+        "best_value": 0.36876037159667063,
+        "delta_abs": 0.015904230293510124,
+        "delta_rel": "4.51%",
+        "higher_is_better": true
+      }
+    }
+  }
+]

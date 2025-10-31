@@ -1,0 +1,26 @@
+Extension for Scikit-learn* enabled (https://github.com/uxlfoundation/scikit-learn-intelex)
+/arf/home/meyavuz/.conda/envs/sbn/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1247: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. From then on, it will always use 'multinomial'. Leave it to its default value to avoid this warning.
+  warnings.warn(
+[saved curves] ./results/FREYFACE/curves/freyface_vae_d32_s777.json
+Traceback (most recent call last):
+  File "/arf/scratch/meyavuz/MVAE/train.py", line 562, in <module>
+    main()
+  File "/arf/scratch/meyavuz/MVAE/train.py", line 548, in main
+    _ = evaluate_model(
+  File "/arf/scratch/meyavuz/MVAE/train.py", line 204, in evaluate_model
+    clf = LogisticRegression(
+  File "/arf/home/meyavuz/.conda/envs/sbn/lib/python3.9/site-packages/daal4py/sklearn/_n_jobs_support.py", line 122, in n_jobs_wrapper
+    return method(self, *args, **kwargs)
+  File "/arf/home/meyavuz/.conda/envs/sbn/lib/python3.9/site-packages/sklearnex/linear_model/logistic_regression.py", line 157, in fit
+    dispatch(
+  File "/arf/home/meyavuz/.conda/envs/sbn/lib/python3.9/site-packages/sklearnex/_device_offload.py", line 152, in dispatch
+    return branches["onedal"](obj, *hostargs, **hostkwargs, queue=queue)
+  File "/arf/home/meyavuz/.conda/envs/sbn/lib/python3.9/site-packages/sklearnex/linear_model/logistic_regression.py", line 353, in _onedal_fit
+    return self._onedal_cpu_fit(X, y, sample_weight)
+  File "/arf/home/meyavuz/.conda/envs/sbn/lib/python3.9/site-packages/daal4py/sklearn/linear_model/logistic_path.py", line 344, in daal4py_fit
+    clf = LogisticRegression_original.fit(self, X, y, sample_weight)
+  File "/arf/home/meyavuz/.conda/envs/sbn/lib/python3.9/site-packages/sklearn/base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/arf/home/meyavuz/.conda/envs/sbn/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1301, in fit
+    raise ValueError(
+ValueError: This solver needs samples of at least 2 classes in the data, but the data contains only one class: 0
