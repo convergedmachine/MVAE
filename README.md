@@ -137,17 +137,6 @@ Example metric summary:
 
 ---
 
-## 💡 Extending the Code
-
-You can extend this repo to:
-
-* Add **new datasets** (e.g., FreyFace, CIFAR-10)
-* Replace linear probes with **MLP classifiers**
-* Integrate **Optuna** or **PyTorch Lightning**
-* Add **denoising** or **contrastive** regularizers for self-supervised learning
-
----
-
 ## 🧩 License
 
 This repository is released under the **MIT License**.
@@ -164,11 +153,10 @@ This repository is released under the **MIT License**.
 
 **Author:** Mehmet Can Yavuz, PhD
 **Affiliation:** Işık University – Multimedia Lab
-**Contact:** [LinkedIn](https://www.linkedin.com/in/mehmetcanyavuz/) | [GitHub](https://github.com/convergedmachine)
-
-```
 
 ---
 
-Would you like me to include a **badges header** (e.g., Python 3.10 | PyTorch | MIT License | Intel Optimized) and a **sample results table** comparing VAE vs MVAE (from your Fashion-MNIST logs)? It would make the README more professional and research-ready.
-```
+## 📄 License
+
+MIT License.
+See `LICENSE` for details.
