@@ -1,4 +1,4 @@
-# Variational Autoencoder (VAE) and Multivariate-VAE (MVAE) Training & Evaluation
+# MultivariateVariational Autoencoder (MVAE) Training & Evaluation
 
 This repository provides a complete and reproducible PyTorch implementation for training, evaluating, and benchmarking **Variational Autoencoders (VAE)** and **Multivariate-Variational Autoencoders (MVAE)** on **MNIST** and **Fashion-MNIST** datasets.  
 It includes integrated **ELBO & MSE tracking**, **logistic regression probes**, **clustering metrics**, and **curve export** in JSON/CSV/NPZ formats.
