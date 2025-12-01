@@ -1,0 +1,148 @@
+/usr/bin/which: no fi_info in (/arf/home/meyavuz/.local/bin:/arf/sw/comp/python/intelpython3/condabin:/arf/sw/comp/python/intelpython3/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin)
+Extension for Scikit-learn* enabled (https://github.com/uxlfoundation/scikit-learn-intelex)
+/arf/home/meyavuz/.conda/envs/sbn/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1247: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. From then on, it will always use 'multinomial'. Leave it to its default value to avoid this warning.
+  warnings.warn(
+[early-stopping] Epoch 1: new best val ELBO = -355.027649
+[early-stopping] Epoch 2: new best val ELBO = -354.180832
+[early-stopping] Epoch 3: new best val ELBO = -352.849251
+[early-stopping] Epoch 4: new best val ELBO = -352.216209
+[early-stopping] Epoch 5: new best val ELBO = -351.285934
+[early-stopping] Epoch 6: new best val ELBO = -351.268555
+[early-stopping] Epoch 7: new best val ELBO = -351.198448
+[early-stopping] Epoch 8: new best val ELBO = -350.302246
+[early-stopping] Epoch 9: new best val ELBO = -350.071869
+[early-stopping] Epoch 10: new best val ELBO = -349.929535
+[early-stopping] Epoch 11: new best val ELBO = -349.922890
+[early-stopping] Epoch 12: new best val ELBO = -349.836494
+[early-stopping] Epoch 13: new best val ELBO = -349.716209
+[early-stopping] Epoch 14: new best val ELBO = -349.615982
+[early-stopping] Epoch 15: new best val ELBO = -349.581398
+[early-stopping] Epoch 16: new best val ELBO = -349.563400
+[early-stopping] Epoch 17: new best val ELBO = -349.414322
+[early-stopping] Epoch 18: new best val ELBO = -349.245216
+[early-stopping] Epoch 19: no improvement (1/20)
+[early-stopping] Epoch 20: no improvement (2/20)
+[early-stopping] Epoch 21: no improvement (3/20)
+[early-stopping] Epoch 22: no improvement (4/20)
+[early-stopping] Epoch 23: no improvement (5/20)
+[early-stopping] Epoch 24: no improvement (6/20)
+[early-stopping] Epoch 25: no improvement (7/20)
+[early-stopping] Epoch 26: new best val ELBO = -349.073891
+[early-stopping] Epoch 27: no improvement (1/20)
+[early-stopping] Epoch 28: no improvement (2/20)
+[early-stopping] Epoch 29: new best val ELBO = -349.071213
+[early-stopping] Epoch 30: new best val ELBO = -348.969429
+[early-stopping] Epoch 31: new best val ELBO = -348.950714
+[early-stopping] Epoch 32: no improvement (1/20)
+[early-stopping] Epoch 33: new best val ELBO = -348.909851
+[early-stopping] Epoch 34: no improvement (1/20)
+[early-stopping] Epoch 35: new best val ELBO = -348.836281
+[early-stopping] Epoch 36: no improvement (1/20)
+[early-stopping] Epoch 37: new best val ELBO = -348.824089
+[early-stopping] Epoch 38: new best val ELBO = -348.812912
+[early-stopping] Epoch 39: no improvement (1/20)
+[early-stopping] Epoch 40: no improvement (2/20)
+[early-stopping] Epoch 41: no improvement (3/20)
+[early-stopping] Epoch 42: new best val ELBO = -348.787460
+[early-stopping] Epoch 43: no improvement (1/20)
+[early-stopping] Epoch 44: new best val ELBO = -348.736732
+[early-stopping] Epoch 45: no improvement (1/20)
+[early-stopping] Epoch 46: new best val ELBO = -348.636719
+[early-stopping] Epoch 47: no improvement (1/20)
+[early-stopping] Epoch 48: no improvement (2/20)
+[early-stopping] Epoch 49: no improvement (3/20)
+[early-stopping] Epoch 50: new best val ELBO = -348.602417
+[early-stopping] Epoch 51: no improvement (1/20)
+[early-stopping] Epoch 52: no improvement (2/20)
+[early-stopping] Epoch 53: no improvement (3/20)
+[early-stopping] Epoch 54: no improvement (4/20)
+[early-stopping] Epoch 55: no improvement (5/20)
+[early-stopping] Epoch 56: no improvement (6/20)
+[early-stopping] Epoch 57: new best val ELBO = -348.536674
+[early-stopping] Epoch 58: no improvement (1/20)
+[early-stopping] Epoch 59: no improvement (2/20)
+[early-stopping] Epoch 60: new best val ELBO = -348.498062
+[early-stopping] Epoch 61: no improvement (1/20)
+[early-stopping] Epoch 62: no improvement (2/20)
+[early-stopping] Epoch 63: no improvement (3/20)
+[early-stopping] Epoch 64: no improvement (4/20)
+[early-stopping] Epoch 65: no improvement (5/20)
+[early-stopping] Epoch 66: no improvement (6/20)
+[early-stopping] Epoch 67: no improvement (7/20)
+[early-stopping] Epoch 68: no improvement (8/20)
+[early-stopping] Epoch 69: no improvement (9/20)
+[early-stopping] Epoch 70: no improvement (10/20)
+[early-stopping] Epoch 71: new best val ELBO = -348.462868
+[early-stopping] Epoch 72: no improvement (1/20)
+[early-stopping] Epoch 73: no improvement (2/20)
+[early-stopping] Epoch 74: no improvement (3/20)
+[early-stopping] Epoch 75: no improvement (4/20)
+[early-stopping] Epoch 76: no improvement (5/20)
+[early-stopping] Epoch 77: no improvement (6/20)
+[early-stopping] Epoch 78: no improvement (7/20)
+[early-stopping] Epoch 79: new best val ELBO = -348.389793
+[early-stopping] Epoch 80: no improvement (1/20)
+[early-stopping] Epoch 81: new best val ELBO = -348.307381
+[early-stopping] Epoch 82: no improvement (1/20)
+[early-stopping] Epoch 83: no improvement (2/20)
+[early-stopping] Epoch 84: no improvement (3/20)
+[early-stopping] Epoch 85: no improvement (4/20)
+[early-stopping] Epoch 86: no improvement (5/20)
+[early-stopping] Epoch 87: no improvement (6/20)
+[early-stopping] Epoch 88: no improvement (7/20)
+[early-stopping] Epoch 89: no improvement (8/20)
+[early-stopping] Epoch 90: no improvement (9/20)
+[early-stopping] Epoch 91: no improvement (10/20)
+[early-stopping] Epoch 92: no improvement (11/20)
+[early-stopping] Epoch 93: no improvement (12/20)
+[early-stopping] Epoch 94: no improvement (13/20)
+[early-stopping] Epoch 95: no improvement (14/20)
+[early-stopping] Epoch 96: no improvement (15/20)
+[early-stopping] Epoch 97: no improvement (16/20)
+[early-stopping] Epoch 98: new best val ELBO = -348.128670
+[early-stopping] Epoch 99: no improvement (1/20)
+[early-stopping] Epoch 100: no improvement (2/20)
+[early-stopping] Epoch 101: no improvement (3/20)
+[early-stopping] Epoch 102: no improvement (4/20)
+[early-stopping] Epoch 103: no improvement (5/20)
+[early-stopping] Epoch 104: no improvement (6/20)
+[early-stopping] Epoch 105: no improvement (7/20)
+[early-stopping] Epoch 106: no improvement (8/20)
+[early-stopping] Epoch 107: no improvement (9/20)
+[early-stopping] Epoch 108: no improvement (10/20)
+[early-stopping] Epoch 109: no improvement (11/20)
+[early-stopping] Epoch 110: no improvement (12/20)
+[early-stopping] Epoch 111: no improvement (13/20)
+[early-stopping] Epoch 112: no improvement (14/20)
+[early-stopping] Epoch 113: no improvement (15/20)
+[early-stopping] Epoch 114: no improvement (16/20)
+[early-stopping] Epoch 115: no improvement (17/20)
+[early-stopping] Epoch 116: no improvement (18/20)
+[early-stopping] Epoch 117: no improvement (19/20)
+[early-stopping] Epoch 118: no improvement (20/20)
+[early-stopping] Patience reached. Stopping at epoch 118. Best epoch: 98, best val ELBO: -348.128670
+[early-stopping] Loaded best model from epoch 98 (val ELBO = -348.128670)
+[checkpoint] Saved best model to: trained_parameters/freyface_zdim2_VAE.pkl
+[saved curves] ./results/FREYFACE/curves/freyface_vae_d2_s777.json
+Traceback (most recent call last):
+  File "/arf/scratch/meyavuz/MVAE/train.py", line 634, in <module>
+    main()
+  File "/arf/scratch/meyavuz/MVAE/train.py", line 619, in main
+    _ = evaluate_model(
+  File "/arf/scratch/meyavuz/MVAE/train.py", line 206, in evaluate_model
+    clf = LogisticRegression(
+  File "/arf/home/meyavuz/.conda/envs/sbn/lib/python3.9/site-packages/daal4py/sklearn/_n_jobs_support.py", line 122, in n_jobs_wrapper
+    return method(self, *args, **kwargs)
+  File "/arf/home/meyavuz/.conda/envs/sbn/lib/python3.9/site-packages/sklearnex/linear_model/logistic_regression.py", line 157, in fit
+    dispatch(
+  File "/arf/home/meyavuz/.conda/envs/sbn/lib/python3.9/site-packages/sklearnex/_device_offload.py", line 152, in dispatch
+    return branches["onedal"](obj, *hostargs, **hostkwargs, queue=queue)
+  File "/arf/home/meyavuz/.conda/envs/sbn/lib/python3.9/site-packages/sklearnex/linear_model/logistic_regression.py", line 353, in _onedal_fit
+    return self._onedal_cpu_fit(X, y, sample_weight)
+  File "/arf/home/meyavuz/.conda/envs/sbn/lib/python3.9/site-packages/daal4py/sklearn/linear_model/logistic_path.py", line 344, in daal4py_fit
+    clf = LogisticRegression_original.fit(self, X, y, sample_weight)
+  File "/arf/home/meyavuz/.conda/envs/sbn/lib/python3.9/site-packages/sklearn/base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/arf/home/meyavuz/.conda/envs/sbn/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1301, in fit
+    raise ValueError(
+ValueError: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(0)

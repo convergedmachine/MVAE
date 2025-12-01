@@ -1,0 +1,386 @@
+/usr/bin/which: no fi_info in (/arf/home/meyavuz/.local/bin:/arf/sw/comp/python/intelpython3/condabin:/arf/sw/comp/python/intelpython3/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin)
+Extension for Scikit-learn* enabled (https://github.com/uxlfoundation/scikit-learn-intelex)
+/arf/home/meyavuz/.conda/envs/sbn/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1247: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. From then on, it will always use 'multinomial'. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/arf/home/meyavuz/.conda/envs/sbn/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+Epoch 1/200, Batch 100, Aver_Loss: 1949.7640
+Epoch 1/200, Batch 200, Aver_Loss: 1871.8402
+Epoch 1/200, Batch 300, Aver_Loss: 1888.2535
+Epoch 1/200, Batch 400, Aver_Loss: 1856.9478
+[early-stopping] Epoch 1: new best val ELBO = -1830.725875
+Epoch 2/200, Batch 100, Aver_Loss: 1841.2826
+Epoch 2/200, Batch 200, Aver_Loss: 1817.0944
+Epoch 2/200, Batch 300, Aver_Loss: 1774.2921
+Epoch 2/200, Batch 400, Aver_Loss: 1796.2930
+[early-stopping] Epoch 2: new best val ELBO = -1806.742212
+Epoch 3/200, Batch 100, Aver_Loss: 1834.6553
+Epoch 3/200, Batch 200, Aver_Loss: 1772.8243
+Epoch 3/200, Batch 300, Aver_Loss: 1787.1992
+Epoch 3/200, Batch 400, Aver_Loss: 1853.6096
+[early-stopping] Epoch 3: new best val ELBO = -1802.306992
+Epoch 4/200, Batch 100, Aver_Loss: 1851.8413
+Epoch 4/200, Batch 200, Aver_Loss: 1810.0363
+Epoch 4/200, Batch 300, Aver_Loss: 1800.4894
+Epoch 4/200, Batch 400, Aver_Loss: 1857.0951
+[early-stopping] Epoch 4: no improvement (1/20)
+Epoch 5/200, Batch 100, Aver_Loss: 1823.7114
+Epoch 5/200, Batch 200, Aver_Loss: 1805.3668
+Epoch 5/200, Batch 300, Aver_Loss: 1834.9633
+Epoch 5/200, Batch 400, Aver_Loss: 1822.3687
+[early-stopping] Epoch 5: new best val ELBO = -1796.826526
+Epoch 6/200, Batch 100, Aver_Loss: 1758.9695
+Epoch 6/200, Batch 200, Aver_Loss: 1780.0142
+Epoch 6/200, Batch 300, Aver_Loss: 1814.1932
+Epoch 6/200, Batch 400, Aver_Loss: 1774.8506
+[early-stopping] Epoch 6: no improvement (1/20)
+Epoch 7/200, Batch 100, Aver_Loss: 1785.5309
+Epoch 7/200, Batch 200, Aver_Loss: 1816.3623
+Epoch 7/200, Batch 300, Aver_Loss: 1809.4490
+Epoch 7/200, Batch 400, Aver_Loss: 1767.5580
+[early-stopping] Epoch 7: no improvement (2/20)
+Epoch 8/200, Batch 100, Aver_Loss: 1816.6429
+Epoch 8/200, Batch 200, Aver_Loss: 1819.0114
+Epoch 8/200, Batch 300, Aver_Loss: 1808.8998
+Epoch 8/200, Batch 400, Aver_Loss: 1739.8473
+[early-stopping] Epoch 8: no improvement (3/20)
+Epoch 9/200, Batch 100, Aver_Loss: 1806.1858
+Epoch 9/200, Batch 200, Aver_Loss: 1805.2408
+Epoch 9/200, Batch 300, Aver_Loss: 1797.0762
+Epoch 9/200, Batch 400, Aver_Loss: 1816.7692
+[early-stopping] Epoch 9: new best val ELBO = -1792.143460
+Epoch 10/200, Batch 100, Aver_Loss: 1751.8073
+Epoch 10/200, Batch 200, Aver_Loss: 1860.4049
+Epoch 10/200, Batch 300, Aver_Loss: 1831.8427
+Epoch 10/200, Batch 400, Aver_Loss: 1848.6074
+[early-stopping] Epoch 10: no improvement (1/20)
+Epoch 11/200, Batch 100, Aver_Loss: 1803.2255
+Epoch 11/200, Batch 200, Aver_Loss: 1812.8639
+Epoch 11/200, Batch 300, Aver_Loss: 1801.8529
+Epoch 11/200, Batch 400, Aver_Loss: 1788.7109
+[early-stopping] Epoch 11: no improvement (2/20)
+Epoch 12/200, Batch 100, Aver_Loss: 1752.4720
+Epoch 12/200, Batch 200, Aver_Loss: 1781.5820
+Epoch 12/200, Batch 300, Aver_Loss: 1828.5056
+Epoch 12/200, Batch 400, Aver_Loss: 1788.9149
+[early-stopping] Epoch 12: no improvement (3/20)
+Epoch 13/200, Batch 100, Aver_Loss: 1772.1803
+Epoch 13/200, Batch 200, Aver_Loss: 1752.8016
+Epoch 13/200, Batch 300, Aver_Loss: 1787.8265
+Epoch 13/200, Batch 400, Aver_Loss: 1822.3822
+[early-stopping] Epoch 13: new best val ELBO = -1788.728180
+Epoch 14/200, Batch 100, Aver_Loss: 1802.2747
+Epoch 14/200, Batch 200, Aver_Loss: 1798.5062
+Epoch 14/200, Batch 300, Aver_Loss: 1832.3164
+Epoch 14/200, Batch 400, Aver_Loss: 1825.1279
+[early-stopping] Epoch 14: new best val ELBO = -1785.289389
+Epoch 15/200, Batch 100, Aver_Loss: 1751.0536
+Epoch 15/200, Batch 200, Aver_Loss: 1792.9421
+Epoch 15/200, Batch 300, Aver_Loss: 1769.5952
+Epoch 15/200, Batch 400, Aver_Loss: 1789.1289
+[early-stopping] Epoch 15: new best val ELBO = -1783.732515
+Epoch 16/200, Batch 100, Aver_Loss: 1757.9303
+Epoch 16/200, Batch 200, Aver_Loss: 1722.4125
+Epoch 16/200, Batch 300, Aver_Loss: 1790.6771
+Epoch 16/200, Batch 400, Aver_Loss: 1805.9791
+[early-stopping] Epoch 16: no improvement (1/20)
+Epoch 17/200, Batch 100, Aver_Loss: 1809.8918
+Epoch 17/200, Batch 200, Aver_Loss: 1814.6471
+Epoch 17/200, Batch 300, Aver_Loss: 1782.3579
+Epoch 17/200, Batch 400, Aver_Loss: 1758.6324
+[early-stopping] Epoch 17: new best val ELBO = -1782.588920
+Epoch 18/200, Batch 100, Aver_Loss: 1795.3900
+Epoch 18/200, Batch 200, Aver_Loss: 1757.0195
+Epoch 18/200, Batch 300, Aver_Loss: 1804.1289
+Epoch 18/200, Batch 400, Aver_Loss: 1776.7849
+[early-stopping] Epoch 18: no improvement (1/20)
+Epoch 19/200, Batch 100, Aver_Loss: 1763.9375
+Epoch 19/200, Batch 200, Aver_Loss: 1792.8691
+Epoch 19/200, Batch 300, Aver_Loss: 1779.5555
+Epoch 19/200, Batch 400, Aver_Loss: 1807.9003
+[early-stopping] Epoch 19: new best val ELBO = -1780.853760
+Epoch 20/200, Batch 100, Aver_Loss: 1788.3770
+Epoch 20/200, Batch 200, Aver_Loss: 1746.7753
+Epoch 20/200, Batch 300, Aver_Loss: 1744.2238
+Epoch 20/200, Batch 400, Aver_Loss: 1799.3435
+[early-stopping] Epoch 20: no improvement (1/20)
+Epoch 21/200, Batch 100, Aver_Loss: 1739.7135
+Epoch 21/200, Batch 200, Aver_Loss: 1798.0784
+Epoch 21/200, Batch 300, Aver_Loss: 1803.3385
+Epoch 21/200, Batch 400, Aver_Loss: 1816.0332
+[early-stopping] Epoch 21: no improvement (2/20)
+Epoch 22/200, Batch 100, Aver_Loss: 1814.8064
+Epoch 22/200, Batch 200, Aver_Loss: 1791.2123
+Epoch 22/200, Batch 300, Aver_Loss: 1757.7982
+Epoch 22/200, Batch 400, Aver_Loss: 1764.5347
+[early-stopping] Epoch 22: new best val ELBO = -1778.853901
+Epoch 23/200, Batch 100, Aver_Loss: 1756.2235
+Epoch 23/200, Batch 200, Aver_Loss: 1783.3820
+Epoch 23/200, Batch 300, Aver_Loss: 1765.0420
+Epoch 23/200, Batch 400, Aver_Loss: 1787.1033
+[early-stopping] Epoch 23: no improvement (1/20)
+Epoch 24/200, Batch 100, Aver_Loss: 1803.5432
+Epoch 24/200, Batch 200, Aver_Loss: 1776.2640
+Epoch 24/200, Batch 300, Aver_Loss: 1782.8918
+Epoch 24/200, Batch 400, Aver_Loss: 1757.1954
+[early-stopping] Epoch 24: no improvement (2/20)
+Epoch 25/200, Batch 100, Aver_Loss: 1748.6783
+Epoch 25/200, Batch 200, Aver_Loss: 1753.5917
+Epoch 25/200, Batch 300, Aver_Loss: 1751.7596
+Epoch 25/200, Batch 400, Aver_Loss: 1805.9336
+[early-stopping] Epoch 25: no improvement (3/20)
+Epoch 26/200, Batch 100, Aver_Loss: 1769.9752
+Epoch 26/200, Batch 200, Aver_Loss: 1745.7612
+Epoch 26/200, Batch 300, Aver_Loss: 1817.2540
+Epoch 26/200, Batch 400, Aver_Loss: 1775.1044
+[early-stopping] Epoch 26: no improvement (4/20)
+Epoch 27/200, Batch 100, Aver_Loss: 1711.4135
+Epoch 27/200, Batch 200, Aver_Loss: 1772.0944
+Epoch 27/200, Batch 300, Aver_Loss: 1803.4841
+Epoch 27/200, Batch 400, Aver_Loss: 1765.3236
+[early-stopping] Epoch 27: no improvement (5/20)
+Epoch 28/200, Batch 100, Aver_Loss: 1774.2231
+Epoch 28/200, Batch 200, Aver_Loss: 1759.6981
+Epoch 28/200, Batch 300, Aver_Loss: 1805.0125
+Epoch 28/200, Batch 400, Aver_Loss: 1791.4572
+[early-stopping] Epoch 28: new best val ELBO = -1777.988689
+Epoch 29/200, Batch 100, Aver_Loss: 1815.0690
+Epoch 29/200, Batch 200, Aver_Loss: 1831.5803
+Epoch 29/200, Batch 300, Aver_Loss: 1805.3181
+Epoch 29/200, Batch 400, Aver_Loss: 1767.2444
+[early-stopping] Epoch 29: no improvement (1/20)
+Epoch 30/200, Batch 100, Aver_Loss: 1720.1552
+Epoch 30/200, Batch 200, Aver_Loss: 1802.0697
+Epoch 30/200, Batch 300, Aver_Loss: 1787.4493
+Epoch 30/200, Batch 400, Aver_Loss: 1801.1709
+[early-stopping] Epoch 30: new best val ELBO = -1777.756508
+Epoch 31/200, Batch 100, Aver_Loss: 1824.2823
+Epoch 31/200, Batch 200, Aver_Loss: 1827.4349
+Epoch 31/200, Batch 300, Aver_Loss: 1789.9528
+Epoch 31/200, Batch 400, Aver_Loss: 1790.9166
+[early-stopping] Epoch 31: new best val ELBO = -1777.348627
+Epoch 32/200, Batch 100, Aver_Loss: 1810.3151
+Epoch 32/200, Batch 200, Aver_Loss: 1752.7020
+Epoch 32/200, Batch 300, Aver_Loss: 1821.4194
+Epoch 32/200, Batch 400, Aver_Loss: 1784.8820
+[early-stopping] Epoch 32: no improvement (1/20)
+Epoch 33/200, Batch 100, Aver_Loss: 1778.8635
+Epoch 33/200, Batch 200, Aver_Loss: 1790.2120
+Epoch 33/200, Batch 300, Aver_Loss: 1775.1140
+Epoch 33/200, Batch 400, Aver_Loss: 1799.5974
+[early-stopping] Epoch 33: new best val ELBO = -1777.332707
+Epoch 34/200, Batch 100, Aver_Loss: 1757.0275
+Epoch 34/200, Batch 200, Aver_Loss: 1754.6719
+Epoch 34/200, Batch 300, Aver_Loss: 1786.7163
+Epoch 34/200, Batch 400, Aver_Loss: 1778.8409
+[early-stopping] Epoch 34: no improvement (1/20)
+Epoch 35/200, Batch 100, Aver_Loss: 1746.9523
+Epoch 35/200, Batch 200, Aver_Loss: 1733.9492
+Epoch 35/200, Batch 300, Aver_Loss: 1803.9377
+Epoch 35/200, Batch 400, Aver_Loss: 1733.1920
+[early-stopping] Epoch 35: new best val ELBO = -1776.758141
+Epoch 36/200, Batch 100, Aver_Loss: 1816.1219
+Epoch 36/200, Batch 200, Aver_Loss: 1796.9741
+Epoch 36/200, Batch 300, Aver_Loss: 1787.0045
+Epoch 36/200, Batch 400, Aver_Loss: 1744.7057
+[early-stopping] Epoch 36: no improvement (1/20)
+Epoch 37/200, Batch 100, Aver_Loss: 1712.9468
+Epoch 37/200, Batch 200, Aver_Loss: 1757.4409
+Epoch 37/200, Batch 300, Aver_Loss: 1776.4095
+Epoch 37/200, Batch 400, Aver_Loss: 1809.4053
+[early-stopping] Epoch 37: no improvement (2/20)
+Epoch 38/200, Batch 100, Aver_Loss: 1766.3394
+Epoch 38/200, Batch 200, Aver_Loss: 1792.6335
+Epoch 38/200, Batch 300, Aver_Loss: 1813.0935
+Epoch 38/200, Batch 400, Aver_Loss: 1803.3722
+[early-stopping] Epoch 38: new best val ELBO = -1776.097213
+Epoch 39/200, Batch 100, Aver_Loss: 1788.2654
+Epoch 39/200, Batch 200, Aver_Loss: 1768.9718
+Epoch 39/200, Batch 300, Aver_Loss: 1843.0883
+Epoch 39/200, Batch 400, Aver_Loss: 1819.5483
+[early-stopping] Epoch 39: no improvement (1/20)
+Epoch 40/200, Batch 100, Aver_Loss: 1803.5287
+Epoch 40/200, Batch 200, Aver_Loss: 1776.8181
+Epoch 40/200, Batch 300, Aver_Loss: 1768.4551
+Epoch 40/200, Batch 400, Aver_Loss: 1787.7341
+[early-stopping] Epoch 40: no improvement (2/20)
+Epoch 41/200, Batch 100, Aver_Loss: 1786.3080
+Epoch 41/200, Batch 200, Aver_Loss: 1802.4694
+Epoch 41/200, Batch 300, Aver_Loss: 1777.6859
+Epoch 41/200, Batch 400, Aver_Loss: 1806.6736
+[early-stopping] Epoch 41: no improvement (3/20)
+Epoch 42/200, Batch 100, Aver_Loss: 1748.7489
+Epoch 42/200, Batch 200, Aver_Loss: 1807.8479
+Epoch 42/200, Batch 300, Aver_Loss: 1763.3320
+Epoch 42/200, Batch 400, Aver_Loss: 1756.2457
+[early-stopping] Epoch 42: no improvement (4/20)
+Epoch 43/200, Batch 100, Aver_Loss: 1770.9344
+Epoch 43/200, Batch 200, Aver_Loss: 1773.2172
+Epoch 43/200, Batch 300, Aver_Loss: 1799.6534
+Epoch 43/200, Batch 400, Aver_Loss: 1806.9856
+[early-stopping] Epoch 43: new best val ELBO = -1775.648832
+Epoch 44/200, Batch 100, Aver_Loss: 1737.8795
+Epoch 44/200, Batch 200, Aver_Loss: 1798.8546
+Epoch 44/200, Batch 300, Aver_Loss: 1778.4802
+Epoch 44/200, Batch 400, Aver_Loss: 1819.2941
+[early-stopping] Epoch 44: no improvement (1/20)
+Epoch 45/200, Batch 100, Aver_Loss: 1786.5970
+Epoch 45/200, Batch 200, Aver_Loss: 1821.6890
+Epoch 45/200, Batch 300, Aver_Loss: 1807.3365
+Epoch 45/200, Batch 400, Aver_Loss: 1768.5466
+[early-stopping] Epoch 45: no improvement (2/20)
+Epoch 46/200, Batch 100, Aver_Loss: 1732.4438
+Epoch 46/200, Batch 200, Aver_Loss: 1749.4645
+Epoch 46/200, Batch 300, Aver_Loss: 1752.2550
+Epoch 46/200, Batch 400, Aver_Loss: 1792.6049
+[early-stopping] Epoch 46: no improvement (3/20)
+Epoch 47/200, Batch 100, Aver_Loss: 1801.2987
+Epoch 47/200, Batch 200, Aver_Loss: 1805.3982
+Epoch 47/200, Batch 300, Aver_Loss: 1774.3656
+Epoch 47/200, Batch 400, Aver_Loss: 1761.2209
+[early-stopping] Epoch 47: no improvement (4/20)
+Epoch 48/200, Batch 100, Aver_Loss: 1817.9132
+Epoch 48/200, Batch 200, Aver_Loss: 1775.2542
+Epoch 48/200, Batch 300, Aver_Loss: 1719.4501
+Epoch 48/200, Batch 400, Aver_Loss: 1744.6501
+[early-stopping] Epoch 48: new best val ELBO = -1775.524671
+Epoch 49/200, Batch 100, Aver_Loss: 1752.4470
+Epoch 49/200, Batch 200, Aver_Loss: 1794.7952
+Epoch 49/200, Batch 300, Aver_Loss: 1764.8770
+Epoch 49/200, Batch 400, Aver_Loss: 1751.9902
+[early-stopping] Epoch 49: new best val ELBO = -1775.063852
+Epoch 50/200, Batch 100, Aver_Loss: 1748.7866
+Epoch 50/200, Batch 200, Aver_Loss: 1801.9838
+Epoch 50/200, Batch 300, Aver_Loss: 1787.4833
+Epoch 50/200, Batch 400, Aver_Loss: 1778.7112
+[early-stopping] Epoch 50: no improvement (1/20)
+Epoch 51/200, Batch 100, Aver_Loss: 1785.6887
+Epoch 51/200, Batch 200, Aver_Loss: 1730.2628
+Epoch 51/200, Batch 300, Aver_Loss: 1814.5308
+Epoch 51/200, Batch 400, Aver_Loss: 1777.5907
+[early-stopping] Epoch 51: no improvement (2/20)
+Epoch 52/200, Batch 100, Aver_Loss: 1776.2756
+Epoch 52/200, Batch 200, Aver_Loss: 1762.5927
+Epoch 52/200, Batch 300, Aver_Loss: 1774.6887
+Epoch 52/200, Batch 400, Aver_Loss: 1820.7151
+[early-stopping] Epoch 52: new best val ELBO = -1773.672740
+Epoch 53/200, Batch 100, Aver_Loss: 1799.0393
+Epoch 53/200, Batch 200, Aver_Loss: 1784.6975
+Epoch 53/200, Batch 300, Aver_Loss: 1775.2975
+Epoch 53/200, Batch 400, Aver_Loss: 1789.1849
+[early-stopping] Epoch 53: no improvement (1/20)
+Epoch 54/200, Batch 100, Aver_Loss: 1788.1190
+Epoch 54/200, Batch 200, Aver_Loss: 1820.8396
+Epoch 54/200, Batch 300, Aver_Loss: 1773.2620
+Epoch 54/200, Batch 400, Aver_Loss: 1769.1239
+[early-stopping] Epoch 54: no improvement (2/20)
+Epoch 55/200, Batch 100, Aver_Loss: 1738.4343
+Epoch 55/200, Batch 200, Aver_Loss: 1757.5645
+Epoch 55/200, Batch 300, Aver_Loss: 1803.8850
+Epoch 55/200, Batch 400, Aver_Loss: 1762.6694
+[early-stopping] Epoch 55: no improvement (3/20)
+Epoch 56/200, Batch 100, Aver_Loss: 1783.5660
+Epoch 56/200, Batch 200, Aver_Loss: 1792.8114
+Epoch 56/200, Batch 300, Aver_Loss: 1807.1252
+Epoch 56/200, Batch 400, Aver_Loss: 1774.3538
+[early-stopping] Epoch 56: no improvement (4/20)
+Epoch 57/200, Batch 100, Aver_Loss: 1760.7781
+Epoch 57/200, Batch 200, Aver_Loss: 1772.3942
+Epoch 57/200, Batch 300, Aver_Loss: 1764.6069
+Epoch 57/200, Batch 400, Aver_Loss: 1751.4297
+[early-stopping] Epoch 57: no improvement (5/20)
+Epoch 58/200, Batch 100, Aver_Loss: 1736.5115
+Epoch 58/200, Batch 200, Aver_Loss: 1786.9862
+Epoch 58/200, Batch 300, Aver_Loss: 1795.2714
+Epoch 58/200, Batch 400, Aver_Loss: 1739.4288
+[early-stopping] Epoch 58: no improvement (6/20)
+Epoch 59/200, Batch 100, Aver_Loss: 1758.0363
+Epoch 59/200, Batch 200, Aver_Loss: 1774.0593
+Epoch 59/200, Batch 300, Aver_Loss: 1754.5952
+Epoch 59/200, Batch 400, Aver_Loss: 1761.0413
+[early-stopping] Epoch 59: no improvement (7/20)
+Epoch 60/200, Batch 100, Aver_Loss: 1781.0569
+Epoch 60/200, Batch 200, Aver_Loss: 1803.7826
+Epoch 60/200, Batch 300, Aver_Loss: 1748.2209
+Epoch 60/200, Batch 400, Aver_Loss: 1715.6528
+[early-stopping] Epoch 60: no improvement (8/20)
+Epoch 61/200, Batch 100, Aver_Loss: 1819.8105
+Epoch 61/200, Batch 200, Aver_Loss: 1841.2263
+Epoch 61/200, Batch 300, Aver_Loss: 1780.2031
+Epoch 61/200, Batch 400, Aver_Loss: 1772.1569
+[early-stopping] Epoch 61: no improvement (9/20)
+Epoch 62/200, Batch 100, Aver_Loss: 1787.4425
+Epoch 62/200, Batch 200, Aver_Loss: 1747.9432
+Epoch 62/200, Batch 300, Aver_Loss: 1797.7050
+Epoch 62/200, Batch 400, Aver_Loss: 1758.5660
+[early-stopping] Epoch 62: no improvement (10/20)
+Epoch 63/200, Batch 100, Aver_Loss: 1778.9026
+Epoch 63/200, Batch 200, Aver_Loss: 1798.3221
+Epoch 63/200, Batch 300, Aver_Loss: 1826.6901
+Epoch 63/200, Batch 400, Aver_Loss: 1756.1971
+[early-stopping] Epoch 63: no improvement (11/20)
+Epoch 64/200, Batch 100, Aver_Loss: 1761.9962
+Epoch 64/200, Batch 200, Aver_Loss: 1796.1631
+Epoch 64/200, Batch 300, Aver_Loss: 1785.7349
+Epoch 64/200, Batch 400, Aver_Loss: 1788.5793
+[early-stopping] Epoch 64: no improvement (12/20)
+Epoch 65/200, Batch 100, Aver_Loss: 1759.9392
+Epoch 65/200, Batch 200, Aver_Loss: 1779.0787
+Epoch 65/200, Batch 300, Aver_Loss: 1781.8495
+Epoch 65/200, Batch 400, Aver_Loss: 1764.4177
+[early-stopping] Epoch 65: no improvement (13/20)
+Epoch 66/200, Batch 100, Aver_Loss: 1759.4175
+Epoch 66/200, Batch 200, Aver_Loss: 1813.7018
+Epoch 66/200, Batch 300, Aver_Loss: 1785.9110
+Epoch 66/200, Batch 400, Aver_Loss: 1749.7335
+[early-stopping] Epoch 66: no improvement (14/20)
+Epoch 67/200, Batch 100, Aver_Loss: 1786.3362
+Epoch 67/200, Batch 200, Aver_Loss: 1714.6490
+Epoch 67/200, Batch 300, Aver_Loss: 1783.2168
+Epoch 67/200, Batch 400, Aver_Loss: 1753.7134
+[early-stopping] Epoch 67: no improvement (15/20)
+Epoch 68/200, Batch 100, Aver_Loss: 1811.6251
+Epoch 68/200, Batch 200, Aver_Loss: 1819.7173
+Epoch 68/200, Batch 300, Aver_Loss: 1714.2362
+Epoch 68/200, Batch 400, Aver_Loss: 1821.2876
+[early-stopping] Epoch 68: no improvement (16/20)
+Epoch 69/200, Batch 100, Aver_Loss: 1837.5437
+Epoch 69/200, Batch 200, Aver_Loss: 1754.0990
+Epoch 69/200, Batch 300, Aver_Loss: 1783.1396
+Epoch 69/200, Batch 400, Aver_Loss: 1784.9006
+[early-stopping] Epoch 69: no improvement (17/20)
+Epoch 70/200, Batch 100, Aver_Loss: 1741.3149
+Epoch 70/200, Batch 200, Aver_Loss: 1751.9896
+Epoch 70/200, Batch 300, Aver_Loss: 1742.7444
+Epoch 70/200, Batch 400, Aver_Loss: 1730.2708
+[early-stopping] Epoch 70: no improvement (18/20)
+Epoch 71/200, Batch 100, Aver_Loss: 1725.1387
+Epoch 71/200, Batch 200, Aver_Loss: 1754.1172
+Epoch 71/200, Batch 300, Aver_Loss: 1818.8406
+Epoch 71/200, Batch 400, Aver_Loss: 1777.9707
+[early-stopping] Epoch 71: no improvement (19/20)
+Epoch 72/200, Batch 100, Aver_Loss: 1754.6274
+Epoch 72/200, Batch 200, Aver_Loss: 1763.4253
+Epoch 72/200, Batch 300, Aver_Loss: 1721.9088
+Epoch 72/200, Batch 400, Aver_Loss: 1758.8275
+[early-stopping] Epoch 72: no improvement (20/20)
+[early-stopping] Patience reached. Stopping at epoch 72. Best epoch: 52, best val ELBO: -1773.672740
+[early-stopping] Loaded best model from epoch 52 (val ELBO = -1773.672740)
+[checkpoint] Saved best model to: trained_parameters/cifar100_zdim32_VAE.pkl
+[saved curves] ./results/CIFAR100/curves/cifar100_vae_d32_s777.json
+
+==== Evaluation Summary ====
+                 model: vae
+   recon/mse_per_pixel: 0.015746
+            elbo/train: -1771.448858
+             elbo/test: -1773.650927
+             mse/train: 0.015481
+              mse/test: 0.015746
+             probe/acc: 0.164833
+             probe/nll: 3.666753
+           probe/brier: 0.931716
+             probe/ece: 0.019363
+           cluster/nmi: 0.219512
+           cluster/ari: 0.026146
+============================
+

@@ -1,0 +1,416 @@
+[
+  {
+    "dataset": "mnist_rotated",
+    "latent": 2,
+    "metrics": {
+      "mse/test": {
+        "vae": 0.04825181269190514,
+        "mvae": 0.04872768540222289,
+        "winner": "vae",
+        "best_value": 0.04825181269190514,
+        "delta_abs": 0.0004758727103177443,
+        "delta_rel": "-0.99%",
+        "higher_is_better": false
+      },
+      "probe/acc": {
+        "vae": 0.2025,
+        "mvae": 0.26629032258064517,
+        "winner": "mvae",
+        "best_value": 0.26629032258064517,
+        "delta_abs": 0.06379032258064515,
+        "delta_rel": "31.50%",
+        "higher_is_better": true
+      },
+      "probe/nll": {
+        "vae": 2.225001347682393,
+        "mvae": 1.983355746211638,
+        "winner": "mvae",
+        "best_value": 1.983355746211638,
+        "delta_abs": 0.24164560147075487,
+        "delta_rel": "10.86%",
+        "higher_is_better": false
+      },
+      "probe/brier": {
+        "vae": 0.8686086294232434,
+        "mvae": 0.793866319965783,
+        "winner": "mvae",
+        "best_value": 0.793866319965783,
+        "delta_abs": 0.0747423094574603,
+        "delta_rel": "8.60%",
+        "higher_is_better": false
+      },
+      "probe/ece": {
+        "vae": 0.08086119515460828,
+        "mvae": 0.025337866865579158,
+        "winner": "mvae",
+        "best_value": 0.025337866865579158,
+        "delta_abs": 0.055523328289029124,
+        "delta_rel": "68.66%",
+        "higher_is_better": false
+      },
+      "cluster/nmi": {
+        "vae": 0.1738839311946065,
+        "mvae": 0.1852244628209195,
+        "winner": "mvae",
+        "best_value": 0.1852244628209195,
+        "delta_abs": 0.011340531626313016,
+        "delta_rel": "6.52%",
+        "higher_is_better": true
+      },
+      "cluster/ari": {
+        "vae": 0.13445183773471348,
+        "mvae": 0.07982201089435113,
+        "winner": "vae",
+        "best_value": 0.13445183773471348,
+        "delta_abs": 0.05462982684036234,
+        "delta_rel": "-40.63%",
+        "higher_is_better": true
+      }
+    }
+  },
+  {
+    "dataset": "mnist_rotated",
+    "latent": 4,
+    "metrics": {
+      "mse/test": {
+        "vae": 0.037146292781264786,
+        "mvae": 0.03699073211388654,
+        "winner": "mvae",
+        "best_value": 0.03699073211388654,
+        "delta_abs": 0.00015556066737824892,
+        "delta_rel": "0.42%",
+        "higher_is_better": false
+      },
+      "probe/acc": {
+        "vae": 0.3406451612903226,
+        "mvae": 0.3389516129032258,
+        "winner": "vae",
+        "best_value": 0.3406451612903226,
+        "delta_abs": 0.0016935483870967882,
+        "delta_rel": "-0.50%",
+        "higher_is_better": true
+      },
+      "probe/nll": {
+        "vae": 1.6935867007042447,
+        "mvae": 1.699538598125173,
+        "winner": "vae",
+        "best_value": 1.6935867007042447,
+        "delta_abs": 0.005951897420928276,
+        "delta_rel": "-0.35%",
+        "higher_is_better": false
+      },
+      "probe/brier": {
+        "vae": 0.7250670175138291,
+        "mvae": 0.7326375274367785,
+        "winner": "vae",
+        "best_value": 0.7250670175138291,
+        "delta_abs": 0.007570509922949387,
+        "delta_rel": "-1.04%",
+        "higher_is_better": false
+      },
+      "probe/ece": {
+        "vae": 0.012206954232627342,
+        "mvae": 0.01695222099341693,
+        "winner": "vae",
+        "best_value": 0.012206954232627342,
+        "delta_abs": 0.004745266760789587,
+        "delta_rel": "-38.87%",
+        "higher_is_better": false
+      },
+      "cluster/nmi": {
+        "vae": 0.1630650818005112,
+        "mvae": 0.16925192623456112,
+        "winner": "mvae",
+        "best_value": 0.16925192623456112,
+        "delta_abs": 0.006186844434049904,
+        "delta_rel": "3.79%",
+        "higher_is_better": true
+      },
+      "cluster/ari": {
+        "vae": 0.0835404275412938,
+        "mvae": 0.08498291164033166,
+        "winner": "mvae",
+        "best_value": 0.08498291164033166,
+        "delta_abs": 0.0014424840990378551,
+        "delta_rel": "1.73%",
+        "higher_is_better": true
+      }
+    }
+  },
+  {
+    "dataset": "mnist_rotated",
+    "latent": 16,
+    "metrics": {
+      "mse/test": {
+        "vae": 0.015903436322993868,
+        "mvae": 0.015499324572565054,
+        "winner": "mvae",
+        "best_value": 0.015499324572565054,
+        "delta_abs": 0.00040411175042881324,
+        "delta_rel": "2.54%",
+        "higher_is_better": false
+      },
+      "probe/acc": {
+        "vae": 0.49338709677419357,
+        "mvae": 0.4925806451612903,
+        "winner": "vae",
+        "best_value": 0.49338709677419357,
+        "delta_abs": 0.0008064516129032695,
+        "delta_rel": "-0.16%",
+        "higher_is_better": true
+      },
+      "probe/nll": {
+        "vae": 1.3837934292928704,
+        "mvae": 1.3796674039301822,
+        "winner": "mvae",
+        "best_value": 1.3796674039301822,
+        "delta_abs": 0.004126025362688246,
+        "delta_rel": "0.30%",
+        "higher_is_better": false
+      },
+      "probe/brier": {
+        "vae": 0.6284477024487848,
+        "mvae": 0.6258302173686391,
+        "winner": "mvae",
+        "best_value": 0.6258302173686391,
+        "delta_abs": 0.0026174850801456984,
+        "delta_rel": "0.42%",
+        "higher_is_better": false
+      },
+      "probe/ece": {
+        "vae": 0.02458904346631419,
+        "mvae": 0.01852279888766428,
+        "winner": "mvae",
+        "best_value": 0.01852279888766428,
+        "delta_abs": 0.006066244578649911,
+        "delta_rel": "24.67%",
+        "higher_is_better": false
+      },
+      "cluster/nmi": {
+        "vae": 0.12010404060540802,
+        "mvae": 0.14552971339008375,
+        "winner": "mvae",
+        "best_value": 0.14552971339008375,
+        "delta_abs": 0.025425672784675724,
+        "delta_rel": "21.17%",
+        "higher_is_better": true
+      },
+      "cluster/ari": {
+        "vae": 0.06427012418377219,
+        "mvae": 0.07325933340682184,
+        "winner": "mvae",
+        "best_value": 0.07325933340682184,
+        "delta_abs": 0.008989209223049646,
+        "delta_rel": "13.99%",
+        "higher_is_better": true
+      }
+    }
+  },
+  {
+    "dataset": "mnist_rotated",
+    "latent": 32,
+    "metrics": {
+      "mse/test": {
+        "vae": 0.013033925396113744,
+        "mvae": 0.01277743302496583,
+        "winner": "mvae",
+        "best_value": 0.01277743302496583,
+        "delta_abs": 0.000256492371147915,
+        "delta_rel": "1.97%",
+        "higher_is_better": false
+      },
+      "probe/acc": {
+        "vae": 0.5291129032258064,
+        "mvae": 0.5319354838709678,
+        "winner": "mvae",
+        "best_value": 0.5319354838709678,
+        "delta_abs": 0.0028225806451613877,
+        "delta_rel": "0.53%",
+        "higher_is_better": true
+      },
+      "probe/nll": {
+        "vae": 1.316812320550802,
+        "mvae": 1.3100119500965672,
+        "winner": "mvae",
+        "best_value": 1.3100119500965672,
+        "delta_abs": 0.006800370454234761,
+        "delta_rel": "0.52%",
+        "higher_is_better": false
+      },
+      "probe/brier": {
+        "vae": 0.5952033848970851,
+        "mvae": 0.5918234057912325,
+        "winner": "mvae",
+        "best_value": 0.5918234057912325,
+        "delta_abs": 0.0033799791058526374,
+        "delta_rel": "0.57%",
+        "higher_is_better": false
+      },
+      "probe/ece": {
+        "vae": 0.021431996222705633,
+        "mvae": 0.023049893555862296,
+        "winner": "vae",
+        "best_value": 0.021431996222705633,
+        "delta_abs": 0.001617897333156662,
+        "delta_rel": "-7.55%",
+        "higher_is_better": false
+      },
+      "cluster/nmi": {
+        "vae": 0.09139786597165785,
+        "mvae": 0.1040279530649698,
+        "winner": "mvae",
+        "best_value": 0.1040279530649698,
+        "delta_abs": 0.012630087093311954,
+        "delta_rel": "13.82%",
+        "higher_is_better": true
+      },
+      "cluster/ari": {
+        "vae": 0.047924645557712336,
+        "mvae": 0.05256784119598954,
+        "winner": "mvae",
+        "best_value": 0.05256784119598954,
+        "delta_abs": 0.004643195638277205,
+        "delta_rel": "9.69%",
+        "higher_is_better": true
+      }
+    }
+  },
+  {
+    "dataset": "mnist_rotated",
+    "latent": 256,
+    "metrics": {
+      "mse/test": {
+        "vae": 0.013625773039987953,
+        "mvae": 0.013386896891841926,
+        "winner": "mvae",
+        "best_value": 0.013386896891841926,
+        "delta_abs": 0.0002388761481460274,
+        "delta_rel": "1.75%",
+        "higher_is_better": false
+      },
+      "probe/acc": {
+        "vae": 0.6747580645161291,
+        "mvae": 0.6925806451612904,
+        "winner": "mvae",
+        "best_value": 0.6925806451612904,
+        "delta_abs": 0.01782258064516129,
+        "delta_rel": "2.64%",
+        "higher_is_better": true
+      },
+      "probe/nll": {
+        "vae": 0.9986715479917001,
+        "mvae": 0.9489099996624833,
+        "winner": "mvae",
+        "best_value": 0.9489099996624833,
+        "delta_abs": 0.049761548329216754,
+        "delta_rel": "4.98%",
+        "higher_is_better": false
+      },
+      "probe/brier": {
+        "vae": 0.4531523690377184,
+        "mvae": 0.4306357482312054,
+        "winner": "mvae",
+        "best_value": 0.4306357482312054,
+        "delta_abs": 0.02251662080651301,
+        "delta_rel": "4.97%",
+        "higher_is_better": false
+      },
+      "probe/ece": {
+        "vae": 0.08059872311209478,
+        "mvae": 0.06917021915436754,
+        "winner": "mvae",
+        "best_value": 0.06917021915436754,
+        "delta_abs": 0.011428503957727237,
+        "delta_rel": "14.18%",
+        "higher_is_better": false
+      },
+      "cluster/nmi": {
+        "vae": 0.12805259676797665,
+        "mvae": 0.09294756595127168,
+        "winner": "vae",
+        "best_value": 0.12805259676797665,
+        "delta_abs": 0.03510503081670496,
+        "delta_rel": "-27.41%",
+        "higher_is_better": true
+      },
+      "cluster/ari": {
+        "vae": 0.06612438208741252,
+        "mvae": 0.050404795081566575,
+        "winner": "vae",
+        "best_value": 0.06612438208741252,
+        "delta_abs": 0.015719587005845942,
+        "delta_rel": "-23.77%",
+        "higher_is_better": true
+      }
+    }
+  },
+  {
+    "dataset": "mnist_rotated",
+    "latent": 512,
+    "metrics": {
+      "mse/test": {
+        "vae": 0.014306891995719422,
+        "mvae": 0.014305009772857607,
+        "winner": "mvae",
+        "best_value": 0.014305009772857607,
+        "delta_abs": 1.8822228618157327e-06,
+        "delta_rel": "0.01%",
+        "higher_is_better": false
+      },
+      "probe/acc": {
+        "vae": 0.6925,
+        "mvae": 0.6929838709677419,
+        "winner": "mvae",
+        "best_value": 0.6929838709677419,
+        "delta_abs": 0.0004838709677419395,
+        "delta_rel": "0.07%",
+        "higher_is_better": true
+      },
+      "probe/nll": {
+        "vae": 0.9618925427888982,
+        "mvae": 0.9467683253224384,
+        "winner": "mvae",
+        "best_value": 0.9467683253224384,
+        "delta_abs": 0.015124217466459866,
+        "delta_rel": "1.57%",
+        "higher_is_better": false
+      },
+      "probe/brier": {
+        "vae": 0.43581239311881553,
+        "mvae": 0.42884517318628784,
+        "winner": "mvae",
+        "best_value": 0.42884517318628784,
+        "delta_abs": 0.006967219932527691,
+        "delta_rel": "1.60%",
+        "higher_is_better": false
+      },
+      "probe/ece": {
+        "vae": 0.08219717268381388,
+        "mvae": 0.0686447655325455,
+        "winner": "mvae",
+        "best_value": 0.0686447655325455,
+        "delta_abs": 0.013552407151268375,
+        "delta_rel": "16.49%",
+        "higher_is_better": false
+      },
+      "cluster/nmi": {
+        "vae": 0.12848955365400722,
+        "mvae": 0.104279459561467,
+        "winner": "vae",
+        "best_value": 0.12848955365400722,
+        "delta_abs": 0.024210094092540213,
+        "delta_rel": "-18.84%",
+        "higher_is_better": true
+      },
+      "cluster/ari": {
+        "vae": 0.06552569367987837,
+        "mvae": 0.05592497726380711,
+        "winner": "vae",
+        "best_value": 0.06552569367987837,
+        "delta_abs": 0.009600716416071263,
+        "delta_rel": "-14.65%",
+        "higher_is_better": true
+      }
+    }
+  }
+]
